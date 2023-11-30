@@ -1,0 +1,13 @@
+{
+    "value": [
+        "-Xplugin:/home/guodl/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3-plugin_2.13.8/3.5.4/chisel3-plugin_2.13.8-3.5.4.jar",
+        "-Xsource:2.13.0",
+        "-language:reflectiveCalls",
+        "-deprecation",
+        "-feature",
+        "-Xcheckinit",
+        "-P:chiselplugin:genBundleElements"
+    ],
+    "valueHash": 1148545706,
+    "inputsHash": -251409571
+}

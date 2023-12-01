@@ -125,7 +125,7 @@
   },
   {
     "class":"firrtl.transforms.BlackBoxTargetDirAnno",
-    "targetDir":"/home/guodl/Desktop/ysyx-exam/npc/vsrc"
+    "targetDir":"/home/guodl/Desktop/trans/ysyx-exam/npc/vsrc"
   },
   {
     "class":"firrtl.transforms.CombinationalPath",

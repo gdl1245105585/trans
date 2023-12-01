@@ -15,7 +15,6 @@ module top(
 );
   wire  ifu_clock; // @[top.scala 19:19]
   wire  ifu_reset; // @[top.scala 19:19]
-  wire [63:0] ifu_io_pc_dnpc; // @[top.scala 19:19]
   wire  ifu_io_clearJump; // @[top.scala 19:19]
   wire  ifu_io_lm_ar_valid; // @[top.scala 19:19]
   wire [31:0] ifu_io_lm_ar_bits_addr; // @[top.scala 19:19]
@@ -280,7 +279,6 @@ module top(
   IFU ifu ( // @[top.scala 19:19]
     .clock(ifu_clock),
     .reset(ifu_reset),
-    .io_pc_dnpc(ifu_io_pc_dnpc),
     .io_clearJump(ifu_io_clearJump),
     .io_lm_ar_valid(ifu_io_lm_ar_valid),
     .io_lm_ar_bits_addr(ifu_io_lm_ar_bits_addr),
@@ -571,7 +569,6 @@ module top(
   assign io_div_num = exu_io_div_num; // @[top.scala 86:16]
   assign ifu_clock = clock;
   assign ifu_reset = reset;
-  assign ifu_io_pc_dnpc = wbu_io_pc_dnpc; // @[top.scala 32:19]
   assign ifu_io_clearJump = wbu_io_isJump; // @[top.scala 33:21]
   assign ifu_io_lm_r_valid = crossbar_io_in1_r_valid; // @[top.scala 56:20]
   assign ifu_io_lm_r_bits_data = crossbar_io_in1_r_bits_data; // @[top.scala 56:20]

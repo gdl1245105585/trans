@@ -52,7 +52,7 @@ class IFU extends Module{
   next_valid:=Mux(io.irq.asBool|io.clearJump.asBool|io.p_error.asBool,1.U,
               Mux((pre_decode.io.jump & io.out.fire).asBool,0.U,
               IF_reg_valid))
-  io.pc:=0.U
+  io.pc:=IF_reg_pc
   next_pc:= Mux(io.irq.asBool,io.irq_nextpc,
             Mux(io.p_error.asBool,io.real_pc,
             Mux(io.clearJump.asBool,io.pc_dnpc,

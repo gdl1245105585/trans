@@ -1,8 +1,8 @@
 {
     "value": [
-        "ref:c984eca8:/home/guodl/Desktop/ysyx-exam/npc/playground/resources",
-        "ref:3b6611a7:/home/guodl/Desktop/ysyx-exam/npc/out/playground/compile.dest/classes",
-        "ref:c984eca8:/home/guodl/Desktop/ysyx-exam/npc/playground/test/resources",
+        "ref:c984eca8:/home/guodl/Desktop/trans/ysyx-exam/npc/playground/resources",
+        "ref:159d36f6:/home/guodl/Desktop/trans/ysyx-exam/npc/out/playground/compile.dest/classes",
+        "ref:c984eca8:/home/guodl/Desktop/trans/ysyx-exam/npc/playground/test/resources",
         "qref:bea2b89e:/home/guodl/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chisel3_2.13/3.5.4/chisel3_2.13-3.5.4.jar",
         "qref:c4e391fe:/home/guodl/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.10/utest_2.13-0.7.10.jar",
         "qref:0d161d10:/home/guodl/.cache/coursier/v1/https/repo1.maven.org/maven2/edu/berkeley/cs/chiseltest_2.13/0.5.4/chiseltest_2.13-0.5.4.jar",
@@ -40,6 +40,6 @@
         "qref:5b0d93b9:/home/guodl/.cache/coursier/v1/https/repo1.maven.org/maven2/org/json4s/json4s-scalap_2.13/3.6.12/json4s-scalap_2.13-3.6.12.jar",
         "qref:b05043cd:/home/guodl/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar"
     ],
-    "valueHash": 1711624328,
-    "inputsHash": 1261628183
+    "valueHash": 1077704151,
+    "inputsHash": 897090134
 }

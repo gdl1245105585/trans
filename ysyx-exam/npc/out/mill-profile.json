@@ -1,42 +1,42 @@
 [
     {
         "label": "playground.test.resources",
-        "millis": 60,
+        "millis": 36,
         "cached": false
     },
     {
         "label": "playground.scalaVersion",
-        "millis": 7,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "playground.test.scalaVersion",
-        "millis": 3,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "mill.scalalib.ZincWorkerModule.classpath",
-        "millis": 15,
+        "millis": 4,
         "cached": true
     },
     {
         "label": "mill.scalalib.ZincWorkerModule.worker",
-        "millis": 139,
+        "millis": 48,
         "cached": false
     },
     {
         "label": "playground.upstreamCompileOutput",
-        "millis": 2,
+        "millis": 0,
         "cached": true
     },
     {
         "label": "playground.sources",
-        "millis": 52,
+        "millis": 26,
         "cached": false
     },
     {
         "label": "playground.generatedSources",
-        "millis": 3,
+        "millis": 1,
         "cached": true
     },
     {
@@ -46,47 +46,47 @@
     },
     {
         "label": "playground.allSourceFiles",
-        "millis": 60,
+        "millis": 17,
         "cached": false
     },
     {
         "label": "playground.transitiveLocalClasspath",
-        "millis": 1,
-        "cached": true
-    },
-    {
-        "label": "playground.resources",
-        "millis": 7,
-        "cached": false
-    },
-    {
-        "label": "playground.unmanagedClasspath",
-        "millis": 2,
-        "cached": true
-    },
-    {
-        "label": "playground.platformSuffix",
-        "millis": 3,
-        "cached": true
-    },
-    {
-        "label": "playground.compileIvyDeps",
         "millis": 0,
         "cached": true
     },
     {
-        "label": "playground.transitiveCompileIvyDeps",
+        "label": "playground.resources",
+        "millis": 1,
+        "cached": false
+    },
+    {
+        "label": "playground.unmanagedClasspath",
         "millis": 1,
         "cached": true
     },
     {
+        "label": "playground.platformSuffix",
+        "millis": 0,
+        "cached": true
+    },
+    {
+        "label": "playground.compileIvyDeps",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "playground.transitiveCompileIvyDeps",
+        "millis": 0,
+        "cached": true
+    },
+    {
         "label": "playground.ivyDeps",
-        "millis": 25,
+        "millis": 23,
         "cached": true
     },
     {
         "label": "playground.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps",
-        "millis": 4,
+        "millis": 1,
         "cached": true
     },
     {
@@ -96,37 +96,37 @@
     },
     {
         "label": "playground.scalaLibraryIvyDeps",
-        "millis": 4,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "playground.mandatoryIvyDeps",
-        "millis": 4,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "playground.transitiveIvyDeps",
-        "millis": 9,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "playground.resolvedIvyDeps",
-        "millis": 5,
+        "millis": 4,
         "cached": true
     },
     {
         "label": "playground.compileClasspath",
-        "millis": 5,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "playground.javacOptions",
-        "millis": 2,
+        "millis": 0,
         "cached": true
     },
     {
         "label": "playground.mandatoryScalacOptions",
-        "millis": 0,
+        "millis": 1,
         "cached": true
     },
     {
@@ -146,12 +146,12 @@
     },
     {
         "label": "playground.allScalacOptions",
-        "millis": 11,
+        "millis": 0,
         "cached": true
     },
     {
         "label": "playground.scalaCompilerClasspath",
-        "millis": 4,
+        "millis": 1,
         "cached": true
     },
     {
@@ -161,12 +161,12 @@
     },
     {
         "label": "playground.compile",
-        "millis": 36564,
+        "millis": 8340,
         "cached": false
     },
     {
         "label": "playground.test.upstreamCompileOutput",
-        "millis": 1,
+        "millis": 2,
         "cached": false
     },
     {
@@ -176,7 +176,7 @@
     },
     {
         "label": "playground.test.generatedSources",
-        "millis": 0,
+        "millis": 1,
         "cached": true
     },
     {
@@ -211,22 +211,22 @@
     },
     {
         "label": "playground.test.compileIvyDeps",
-        "millis": 1,
+        "millis": 0,
         "cached": true
     },
     {
         "label": "playground.test.transitiveCompileIvyDeps",
-        "millis": 0,
-        "cached": true
-    },
-    {
-        "label": "playground.test.ivyDeps",
         "millis": 1,
         "cached": true
     },
     {
+        "label": "playground.test.ivyDeps",
+        "millis": 4,
+        "cached": true
+    },
+    {
         "label": "playground.test.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps",
-        "millis": 0,
+        "millis": 1,
         "cached": true
     },
     {
@@ -246,27 +246,27 @@
     },
     {
         "label": "playground.test.transitiveIvyDeps",
-        "millis": 7,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "playground.test.resolvedIvyDeps",
-        "millis": 4,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "playground.test.compileClasspath",
-        "millis": 4,
+        "millis": 3,
         "cached": false
     },
     {
         "label": "playground.test.enablePluginScalacOptions",
-        "millis": 3,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "playground.test.allScalacOptions",
-        "millis": 2,
+        "millis": 4,
         "cached": true
     },
     {
@@ -276,22 +276,22 @@
     },
     {
         "label": "playground.test.compile",
-        "millis": 1588,
+        "millis": 89,
         "cached": false
     },
     {
         "label": "playground.test.localClasspath",
-        "millis": 2,
+        "millis": 0,
         "cached": true
     },
     {
         "label": "playground.test.runIvyDeps",
-        "millis": 6,
+        "millis": 1,
         "cached": true
     },
     {
         "label": "playground.test.resolvedRunIvyDeps",
-        "millis": 3,
+        "millis": 1,
         "cached": true
     },
     {
@@ -301,37 +301,37 @@
     },
     {
         "label": "playground.test.runClasspath",
-        "millis": 11,
+        "millis": 2,
         "cached": false
     },
     {
         "label": "playground.test.forkArgs",
-        "millis": 2,
-        "cached": true
-    },
-    {
-        "label": "playground.test.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv",
-        "millis": 19,
-        "cached": false
-    },
-    {
-        "label": "playground.test.forkEnv",
-        "millis": 8,
-        "cached": true
-    },
-    {
-        "label": "playground.test.forkWorkingDir",
         "millis": 1,
         "cached": true
     },
     {
-        "label": "playground.test.runUseArgsFile",
+        "label": "playground.test.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv",
+        "millis": 4,
+        "cached": false
+    },
+    {
+        "label": "playground.test.forkEnv",
+        "millis": 1,
+        "cached": true
+    },
+    {
+        "label": "playground.test.forkWorkingDir",
         "millis": 0,
         "cached": true
     },
     {
+        "label": "playground.test.runUseArgsFile",
+        "millis": 1,
+        "cached": true
+    },
+    {
         "label": "playground.test.runMain",
-        "millis": 8902,
+        "millis": 6764,
         "cached": false
     }
 ]

@@ -1,7 +1,6 @@
 module IFU(
   input         clock,
   input         reset,
-  input  [63:0] io_pc_dnpc,
   input         io_clearJump,
   output        io_lm_ar_valid,
   output [31:0] io_lm_ar_bits_addr,
@@ -46,7 +45,7 @@ module IFU(
   wire [63:0] _next_pc_T_9 = IF_reg_pc + 64'h4; // @[IFU.scala 61:22]
   wire [63:0] _next_pc_T_10 = pre_decode_io_j ? _next_pc_T_7 : _next_pc_T_9; // @[IFU.scala 60:16]
   wire [63:0] _next_pc_T_11 = ~_next_valid_T_5 ? IF_reg_pc : _next_pc_T_10; // @[IFU.scala 59:16]
-  wire [63:0] _next_pc_T_12 = io_clearJump ? io_pc_dnpc : _next_pc_T_11; // @[IFU.scala 58:16]
+  wire [63:0] _next_pc_T_12 = io_clearJump ? 64'h0 : _next_pc_T_11; // @[IFU.scala 58:16]
   wire [63:0] _next_pc_T_13 = io_p_error ? {{32'd0}, io_real_pc} : _next_pc_T_12; // @[IFU.scala 57:16]
   wire [63:0] next_pc = io_irq ? {{32'd0}, io_irq_nextpc} : _next_pc_T_13; // @[IFU.scala 56:16]
   reg [63:0] B_num; // @[IFU.scala 86:20]

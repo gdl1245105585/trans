@@ -1,8 +1,8 @@
 {
     "value": [
-        "ref:c984eca8:/home/guodl/Desktop/ysyx-exam/npc/playground/test/resources",
-        "ref:b6c9aee8:/home/guodl/Desktop/ysyx-exam/npc/out/playground/test/compile.dest/classes"
+        "ref:c984eca8:/home/guodl/Desktop/trans/ysyx-exam/npc/playground/test/resources",
+        "ref:9faf33cd:/home/guodl/Desktop/trans/ysyx-exam/npc/out/playground/test/compile.dest/classes"
     ],
-    "valueHash": 515970860,
-    "inputsHash": 350919432
+    "valueHash": -2114819159,
+    "inputsHash": -1261695424
 }
